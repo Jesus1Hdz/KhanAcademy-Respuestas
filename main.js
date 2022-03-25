@@ -1,5 +1,3 @@
-j
-
 // @author       Jesús (github@Jesus1Hdz)
 
 
@@ -86,7 +84,7 @@ j
                         if (errorIteration() < 4) {
                             return location.reload();
                         } else {
-                            return console.log("%c An error occurred", "color: red; font-weight: bolder; font-size: 20px;");
+                            return console.log("%c A ocurrido un error", "color: red; font-weight: bolder; font-size: 20px;");
                         }
                     }
 

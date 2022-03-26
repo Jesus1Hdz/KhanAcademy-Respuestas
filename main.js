@@ -107,8 +107,9 @@
 
             if (!window.loaded) {
                 console.clear();
-                console.log("%c Respuestas ", "color: mediumvioletred; -webkit-text-stroke: .5px black; font-size:40px; font-weight:bolder; padding: .2rem;");
-                console.log("%cCreado por Jesús (@Jesus1Hdz)", "color: white; -webkit-text-stroke: .5px black; font-size:15px; font-weight:bold;");
+                console.log("%c Respuestas correctas", "color: mediumvioletred; -webkit-text-stroke: .5px black; font-size:40px; font-weight:bolder; padding: .2rem;");
+                console.log("%c Creado por Jesús (@Jesus1Hdz)", "color: green; -webkit-text-stroke: .5px black; font-size:15px; font-weight:bold;");
+                console.log('Repositorio => https://github.com/Jesus1Hdz/KhanAcademy-Respuestas');
                 window.loaded = true;
             }
 
